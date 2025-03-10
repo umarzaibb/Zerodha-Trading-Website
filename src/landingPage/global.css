@@ -5,8 +5,14 @@
 
 .fa-solid {
     color: rgba(43, 42, 42, 0.817);
-    font-size: 1.33rem;
-    margin-right: 2rem;
+    font-size: 1.15rem;
+    margin-right: 1.7rem;
+}
+
+.fa-solid:hover {
+    color: rgb(29, 28, 28);
+    font-size: 1.15rem;
+    margin-right: 1.7rem;
 }
 
 .nav-item {
