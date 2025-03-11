@@ -196,3 +196,53 @@ body {
     width: 7rem !important;
     margin-top: 2rem;
 }
+
+.education-home-div  {
+    display: flex;
+    padding: 0rem 2rem;
+    margin-bottom: 8rem;
+}
+
+.education-home-div> img {
+    margin-right: 8rem;
+    height: 18rem;
+    margin-left: 2.75rem;
+}
+
+.education-side-paragraph {
+    margin-top: 2rem;
+}
+
+.education-side-paragraph >p{
+    width: 38vw;
+}
+
+.education-heading {
+    color: rgba(0, 0, 0, 0.744);
+    margin-bottom: 2rem;
+}
+
+.educational-p {
+    color: rgba(0, 0, 0, 0.744);
+    margin-top: 1.5rem;
+}
+
+.educational-a {
+    color:  rgba(3, 120, 209, 0.924) !important;
+    font-weight: 600;
+    width: 7rem;
+    text-decoration: none;
+}
+
+.educational-a> i{
+    margin-left: 0.75rem;
+}
+
+.educational-a:hover {
+    color:  rgba(35, 35, 35, 0.924) !important;
+    font-weight: 600;
+    width: 7rem;
+    text-decoration: none;
+    
+}
+
