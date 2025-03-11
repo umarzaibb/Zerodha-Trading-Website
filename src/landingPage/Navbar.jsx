@@ -4,14 +4,13 @@ import "./global.css";
 function Navbar() {
   return (
     <>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="fixed-top navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <div className="container-nav">
           <a class="navbar-brand" href="#">
             <img id="nav-logo" src="../../public/media/logo.svg"></img>
           </a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler navbar-closebtn"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -21,8 +20,6 @@ function Navbar() {
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          </div>
-          <div className="container-nav">
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
@@ -52,13 +49,12 @@ function Navbar() {
               </li>
               <li class="nav-item">
                 <a class="nav-link " aria-disabled="true">
-                  <i class="fa-solid fa-bars"></i>
+                  <i class="fa-solid fa-bars nav-logo-burger"></i>
                 </a>
               </li>
             </ul>
           </div>
           </div>
-        </div>
       </nav>
     </>
   );
