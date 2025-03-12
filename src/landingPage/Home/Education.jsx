@@ -4,7 +4,7 @@ function Education() {
     return ( 
         <>
             <div className='education-home-div'>
-                <img src='../../../public/media/education.svg'></img>
+                <img src='/media/education.svg'></img>
                 <div className='education-side-paragraph'>
                     <h3 className='education-heading'>Free and open market education</h3>
                     <p className='educational-p'>Varsity, the largest online stock market education book in the world covering everything from the basics to advanced trading.</p>

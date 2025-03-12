@@ -18,10 +18,10 @@ function Pricing() {
             </div>
           </div>
           <div className='pricing-side-div'>
-            <img src="../../../public/media/pricing0.svg"></img>
+            <img src="/media/pricing0.svg"></img>
             <p className='pricing-imgSide-paragraph'>Free account opening</p>
 
-            <img src="../../../public/media/pricing0.svg"></img>
+            <img src="/media/pricing0.svg"></img>
             <p className='pricing-imgSide-paragraph'> Free equity delivery and direct mutual funds</p>
             
             <img src="https://zerodha.com/static/images/other-trades.svg"></img>

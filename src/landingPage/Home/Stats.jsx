@@ -29,7 +29,7 @@ function Stats() {
                 </div>
               </div>
               <div>
-              <img src='../../../public/media/ecosystem.png' id='home-eco-img'></img>
+              <img src='/media/ecosystem.png' id='home-eco-img'></img>
 
                  <div className='home-stats-icon'>
                     <a>Explore our products<i class="fa-solid fa-arrow-right" id='icon-stats'></i></a>

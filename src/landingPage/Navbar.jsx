@@ -7,7 +7,7 @@ function Navbar() {
       <nav class="fixed-top navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img id="nav-logo" src="../../public/media/logo.svg"></img>
+            <img id="nav-logo" src="/media/logo.svg"></img>
           </a>
           <button
             class="navbar-toggler navbar-closebtn"

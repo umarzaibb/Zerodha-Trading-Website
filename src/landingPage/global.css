@@ -65,6 +65,10 @@ body {
     padding: 6px 9px;
 }
 
+.home-hero-signup-btn:hover {
+    background-color: black;
+}
+
 .home-stats-div {
     margin-top: 24vh;
     display: flex;
@@ -243,6 +247,125 @@ body {
     font-weight: 600;
     width: 7rem;
     text-decoration: none;
-    
 }
 
+.OpenAccount-Div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.OpenAccount-Div> h3 {
+    font-size: 2.1rem;
+    color: rgba(0, 0, 0, 0.744);
+    margin-bottom: 1rem;
+}
+
+.OpenAccount-Div>p {
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.744);
+}
+
+
+.footer-div {
+    height: 75vh;
+    width: 100vw;
+    background-color: #fbfbfb;
+    border-top: 0.5px solid #e8e6e6;
+}
+
+.footer-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-lvl2-1> img {
+  width: 9rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.footer-lvl2-1 {
+    width: 10rem;
+}
+
+.footer-lvl2-1> p{
+    width: 18rem;
+    font-size: 0.75rem;
+    color: rgba(68, 67, 67, 0.894);
+}
+
+.footer-lvl2-1>p> i{
+    margin-right: 1.5rem;
+    font-size: 1.15rem;
+    margin-bottom: 1rem;
+    color:rgb(103, 102, 102) ;
+}
+
+.footer-lvl2-1>p> i:hover {
+    color:  rgba(3, 120, 209, 0.924);
+}
+
+.footer-lvl2-0, .footer-lvl2-2,.footer-lvl2-3 , .footer-lvl2-4 {
+     width: 10rem;
+     margin-top: 1.8rem;
+}
+
+.footer-h5 {
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.744);
+    margin-bottom: 1rem;
+}
+
+.footer-opt-p {
+    font-size: small;
+    color:rgb(103, 102, 102);
+    font-weight: 500;
+}
+
+.term-policy-div {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-color: #fbfbfb;
+    width: 100%;
+}
+
+.term-policy-p {
+    font-size: 0.62rem;
+    color:rgb(116, 114, 114);
+    padding-top: 2rem;
+}
+
+.term-policy-p >a {
+    text-decoration: none;
+    font-weight: 500;
+    color:  rgba(58, 152, 223, 0.924);
+}
+
+.term-policy-p >a:hover {
+    text-decoration: none;
+    font-weight: 500;
+    color:  rgba(12, 12, 12, 0.924);
+}
+
+.main-footer-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.term-policy-last-p>a {
+    font-size: 0.7rem;
+    margin-left: 1.8rem;
+    text-decoration: none;
+    font-weight: 600;
+    color:rgb(133, 133, 133);
+}
+
+.term-policy-last-p>a:hover {
+    color: rgba(58, 152, 223, 0.924);
+}
+
+.term-policy-last-p {
+    margin-left: 1rem
+}
