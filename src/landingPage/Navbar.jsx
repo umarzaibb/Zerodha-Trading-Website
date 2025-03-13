@@ -6,7 +6,7 @@ function Navbar() {
     <>
       <nav class="fixed-top navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/">
             <img id="nav-logo" src="/media/logo.svg"></img>
           </a>
           <button
@@ -23,27 +23,27 @@ function Navbar() {
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">
+                <a class="nav-link" aria-current="page" href="/signup">
                   Signup
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="/about">
                   About
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="/products">
                   Products
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="/pricing">
                   Pricing
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-disabled="true">
+                <a class="nav-link" href="/support" aria-disabled="true">
                   Support
                 </a>
               </li>

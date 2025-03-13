@@ -42,7 +42,7 @@ function Stats() {
             </div>
 
             <div className='media-coverage-home'>
-               <img src='../../../public/media/pressLogos.png'></img>
+               <img src='/media/pressLogos.png'></img>
             </div>
         </>
      );

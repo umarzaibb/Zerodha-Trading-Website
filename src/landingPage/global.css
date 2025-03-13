@@ -323,6 +323,11 @@ body {
     color:rgb(103, 102, 102);
     font-weight: 500;
 }
+.footer-opt-p:hover {
+    font-size: small;
+    color: rgba(58, 152, 223, 0.924);
+    font-weight: 500;
+}
 
 .term-policy-div {
     padding-left: 5rem;
