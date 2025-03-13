@@ -374,3 +374,78 @@ body {
 .term-policy-last-p {
     margin-left: 1rem
 }
+
+.SupportPageDiv {
+    height: 100vh;
+    width: 100vw;
+    background-color: #387ED1;
+    padding-top: 7.5rem;
+    display: flex;
+    padding-left: 0.5rem;
+
+}
+
+.support-h3 {
+    color: rgb(249, 243, 243);
+    font-size: 1.45rem;
+    font-weight: 500;
+    margin-bottom: 2.75rem;
+}
+
+.support-h3:nth-of-type(2) {
+    font-weight: 400;
+}
+
+
+.support-search> button {
+    background-color:  rgb(249, 243, 243);
+    border: none;
+    height: 3.35rem;
+    width: 3rem;
+}
+
+
+.support-search> button:hover {
+    background-color: rgb(249, 243, 243) ;
+}
+
+.support-search> button>i:hover {
+    color: rgb(57, 56, 56) ;
+
+}
+
+.support-a {
+    color: rgb(249, 243, 243);
+    font-size: large;
+    padding-left: 0.25rem;
+    padding-right: 1.5rem;
+}
+
+.support-side-div {
+    width: 35vw;
+    margin-left: 5rem;
+}
+
+.support-child-div {
+    margin-right: 2rem;
+    width: 50vw;
+}
+
+.support-feature-h3 {
+    color: rgb(249, 243, 243);
+    font-size: 1.45rem;
+    font-weight: 500;
+    margin-top: 6rem;
+}
+
+.support-a-feature {
+    color: rgb(249, 243, 243);
+    font-size: medium; 
+}
+
+.trackticket {
+    position: absolute;
+    right: -1rem;
+    font-size: larger;
+    font-weight: 500;
+}
