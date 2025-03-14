@@ -449,3 +449,47 @@ body {
     font-size: larger;
     font-weight: 500;
 }
+
+.support-ticket {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.support-ticket>div {
+    width: 27vw;
+    margin-bottom: 3rem;
+}
+
+.support-main-h {
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+    margin-left: 0.35rem;
+    color: #666666;
+    font-size: 1.45rem;
+    font-weight: 400;
+}
+
+.support-ticket>div> h3 {
+    font-weight: 400;
+    font-size: 1.35rem;
+}
+
+.support-ticket>div> h3>i {
+    font-size: 1.15rem;
+    margin-right: 0.5rem;
+}
+
+.support-ticket>div> a {
+    color: #387ED1;
+    text-decoration: none;
+    display: block;
+    margin-top: 1rem;
+    font-size: 0.95rem;
+}
+
+.support-ticket>div> a:hover {
+    color: #666666;
+    text-decoration: none;
+    display: block;
+}
