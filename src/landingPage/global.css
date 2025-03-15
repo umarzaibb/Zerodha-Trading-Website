@@ -486,10 +486,159 @@ body {
     display: block;
     margin-top: 1rem;
     font-size: 0.95rem;
+    margin-left: 1.6rem;
 }
 
 .support-ticket>div> a:hover {
     color: #666666;
     text-decoration: none;
     display: block;
+}
+
+.Pricing-hero-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 25vh;
+}
+
+.Pricing-hero-div> div{
+    width: 24vw;
+    margin-left: 3rem;
+    text-align: center;
+    margin-right: 1rem;
+}
+
+.Pricing-hero-div>div> img{
+    height: 11rem;
+}
+
+.Pricing-hero-div>div> h3{
+    font-size: 1.35rem;
+    color: rgba(0, 0, 0, 0.744);
+    margin-bottom: 1rem;
+}
+
+.Pricing-hero-div>div> p{
+    font-size: small;
+    color: rgba(57, 56, 56, 0.86);
+    margin-bottom: 1rem;
+}
+
+.pricing-main-h1 {
+    margin-top: 5rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.744);
+}
+
+.pricing-main-p {
+    text-align: center;
+    font-weight: 500;
+    color: rgba(121, 120, 120, 0.744);
+}
+
+.brokerage-div {
+    column-width: 28vw;
+    margin-left: 13vw;
+    margin-right: 13vw;
+}
+
+.brokerage-div> h6{
+    text-align: center;
+    font-weight: 500;
+    color: rgba(38, 35, 35, 0.986);
+}
+
+.brokerage-div >div {
+    width: 100%;
+    padding: 1.5rem;
+}
+
+.brokage-main-heading {
+    text-align: center;
+    font-weight: 400;
+    color: rgba(38, 35, 35, 0.986);
+    margin-top: 4rem;
+    font-size: large;
+}
+
+.brokage-main-heading>span {
+    color: rgba(3, 133, 208, 0.986);
+}
+
+.brokage-lvl2-heading {
+    margin-left:15.5vw ;
+}
+
+.brokerage-div> div>h6 {
+    color: rgba(58, 55, 55, 0.986);
+    font-size: small;
+}
+
+.brokerage-div> div>p {
+    color: rgba(88, 87, 87, 0.986);
+    font-size: small;
+}
+
+.brokerage-div> div>ul {
+    color: rgba(88, 87, 87, 0.986);
+    font-size: small;
+}
+
+.disclaimer-div {
+    margin: 0px 12rem;
+    margin-bottom: 3rem;
+}
+
+.disclaimer-div>h6 {
+    color: rgba(53, 49, 49, 0.986);
+    font-size: medium;
+}
+
+.disclaimer-div> p {
+    color: rgba(88, 87, 87, 0.986);
+    font-size: small;
+    line-height: 1rem;
+}
+
+.ChargesTable-Pricing {
+    margin: 1px auto;
+    border: 1px solid rgb(183, 179, 179);
+    line-height: 1.8rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.ChargesTable-Pricing> tr:nth-of-type(1) {
+    border-bottom: 1px solid rgb(189, 187, 187);
+}
+
+.ChargesTable-Pricing> tr>td:nth-last-of-type(1){
+    width: 8rem;
+    font-size: small;
+    color: #444242;
+    background-color: #e8e6e61d;
+}
+
+.ChargesTable-Pricing> tr>td:nth-last-of-type(2){
+    width: 50vw;
+    font-size: small;
+    padding-left: 0.5rem;
+    color: #444242;
+    background-color: #e8e6e651;
+}
+
+.ChargesTable-Pricing> tr>td>span {
+    background-color: rgb(36, 187, 6);
+    color: white;
+    font-size: x-small;
+    padding: 0.05rem 0.5rem;
+    border-radius: 0.1rem;
+}
+
+
+.charges-table-h {
+    color: #474747;
+    font-weight: 500;
+    margin-left: 19.5vw;
+    font-size: larger;
 }
