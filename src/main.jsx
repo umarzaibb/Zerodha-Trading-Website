@@ -7,6 +7,7 @@ import ProductPage from './landingPage/Products/ProductPage';
 import SignupPage from './landingPage/Signup/SignupPage';
 import AboutPage from './landingPage/About/AboutPage';
 import SupportPage from './landingPage/Support/SupportPage';
+import NotFound from './landingPage/notFound';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -18,6 +19,7 @@ createRoot(document.getElementById('root')).render(
         <Route path='/signup' element={<SignupPage/>}/>
         <Route path='/about' element={<AboutPage/>}/>
         <Route path='/support' element={<SupportPage/>}/>
+        <Route path='*' element={<NotFound/>}/>
       </Routes>
     </BrowserRouter>
   </StrictMode>,
